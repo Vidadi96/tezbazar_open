@@ -1,0 +1,48 @@
+.scroll_div{
+  position: relative;
+  float: left;
+  width: 100%;
+  overflow: auto;
+  background: #ffffff;
+  box-shadow: 0px 4px 8px rgba(138, 146, 142, 0.1);
+  border-radius: 16px;
+  margin: 30px 0px 20px 0px;
+  min-height: calc(100% - 280px);
+}
+.scroll_div table{
+  position: relative;
+  float: left;
+  width: 100%;
+  min-width: 600px;
+}
+.flex-justify-center {
+  position: relative;
+  float: left;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.scroll_div table th {
+  font-weight: 600;
+  font-size: 12px;
+  color: #8A928E;
+  text-align: left;
+  text-transform: uppercase;
+  height: 47px;
+}
+.scroll_div table tr {
+  border-bottom: 1px solid #8A928E33;
+}
+.scroll_div table td{
+  font-size: 15px;
+  text-align: left;
+  color: #00250F;
+  height: 45px;
+}
+.scroll_div button{
+  padding: 3px 4px !important;
+  font-size: 14px !important;
+}
+.edit_open{
+  display: none;
+}

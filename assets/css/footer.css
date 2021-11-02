@@ -1,0 +1,101 @@
+#footer{
+  position: relative;
+  float: left;
+  width: calc(100% + 140px);
+  left: -70px;
+  margin-top: 44px;
+  background: #ffffff;
+  padding: 19px 70px 0px 70px;
+  box-shadow: 0px 4px 8px rgba(138, 146, 142, 0.1);
+}
+.footerContent{
+  position: relative;
+  float: left;
+  width: 25%;
+  min-width: 200px;
+}
+.footerContentTitle{
+  position: relative;
+  float: left;
+  width: 100%;
+  color: #8A928E;
+  font-size: 18px;
+  height: 36px;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 10px;
+}
+.footerContentTitle img:first-child{
+  position: relative;
+  float: left;
+  width: 30px;
+  height: 36px;
+  margin-right: 8px;
+}
+.footerContentTitle img:last-child{
+  position: relative;
+  float: left;
+  width: 151px;
+  height: 24px;
+}
+span.footerContentTitle{
+  top: 3px;
+}
+.footerContentContent{
+  position: relative;
+  float: left;
+  width: 70%;
+  font-size: 14px;
+  color: #00250F;
+  padding: 10px 0px;
+}
+.footerContentContent i{
+  position: relative;
+  float: left;
+  margin-right: 16px;
+  top: 3px;
+}
+.footerContentContent:not(#descr){
+  cursor: pointer;
+}
+.footerContentContent:not(#descr):hover{
+  color: #8A928E;
+}
+.footerContentContent:not(#descr):active{
+  color: #000;
+}
+#arrTB{
+  position: relative;
+  float: left;
+  width: 100%;
+  background: #F5F5F5;
+  border-radius: 8px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  margin: 32px 0px;
+}
+#arrTB span{
+  color: #00250F;
+  font-size: 14px;
+}
+#arrTB span:first-child{
+  position: relative;
+  float: left;
+  margin-left: 24px;
+}
+#arrTB span:last-child{
+  position: absolute;
+  right: 24px;
+}
+
+@media screen and (max-width: 1150px) {
+  #description{
+    width: 100%;
+  }
+  #footer{
+    width: calc(100% + 60px);
+    left: -30px;
+    padding: 19px 30px 0px 30px;
+  }
+}
